@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "nishul-ADF"
+		},
+		"SQL_Emp_table_password": {
+			"value": ""
+		},
+		"SQL_Emp_table_properties_typeProperties_server": {
+			"value": "rg-nishul-server.database.windows.net"
+		},
+		"SQL_Emp_table_properties_typeProperties_database": {
+			"value": "nishulDB"
+		},
+		"SQL_Emp_table_properties_typeProperties_userName": {
+			"value": "nishul"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
