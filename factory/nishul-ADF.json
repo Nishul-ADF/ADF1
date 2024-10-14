@@ -1,0 +1,9 @@
+{
+	"name": "nishul-ADF",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "42863e79-e058-486c-8dc0-4dde4b46d298",
+		"tenantId": "98caa2fe-4e7e-458c-9fef-d433901ebd23"
+	}
+}
