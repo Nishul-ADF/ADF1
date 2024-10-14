@@ -5,16 +5,19 @@
 		"factoryName": {
 			"value": "nishul-ADF"
 		},
-		"SQL_Emp_table_password": {
+		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
-		"SQL_Emp_table_properties_typeProperties_server": {
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
 			"value": "rg-nishul-server.database.windows.net"
 		},
-		"SQL_Emp_table_properties_typeProperties_database": {
+		"AzureSqlDatabase1_properties_typeProperties_database": {
 			"value": "nishulDB"
 		},
-		"SQL_Emp_table_properties_typeProperties_userName": {
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
 			"value": "nishul"
 		},
 		"containerUri": {

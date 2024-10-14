@@ -7,19 +7,23 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "nishul-ADF"
 		},
-		"SQL_Emp_table_password": {
+		"AzureBlobStorage1_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'SQL_Emp_table'"
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
 		},
-		"SQL_Emp_table_properties_typeProperties_server": {
+		"AzureSqlDatabase1_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'AzureSqlDatabase1'"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "rg-nishul-server.database.windows.net"
 		},
-		"SQL_Emp_table_properties_typeProperties_database": {
+		"AzureSqlDatabase1_properties_typeProperties_database": {
 			"type": "string",
 			"defaultValue": "nishulDB"
 		},
-		"SQL_Emp_table_properties_typeProperties_userName": {
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "nishul"
 		},
@@ -50,17 +54,20 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"SQL_Emp_table_password": {
-						"value": "[parameters('SQL_Emp_table_password')]"
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
 					},
-					"SQL_Emp_table_properties_typeProperties_server": {
-						"value": "[parameters('SQL_Emp_table_properties_typeProperties_server')]"
+					"AzureSqlDatabase1_password": {
+						"value": "[parameters('AzureSqlDatabase1_password')]"
 					},
-					"SQL_Emp_table_properties_typeProperties_database": {
-						"value": "[parameters('SQL_Emp_table_properties_typeProperties_database')]"
+					"AzureSqlDatabase1_properties_typeProperties_server": {
+						"value": "[parameters('AzureSqlDatabase1_properties_typeProperties_server')]"
 					},
-					"SQL_Emp_table_properties_typeProperties_userName": {
-						"value": "[parameters('SQL_Emp_table_properties_typeProperties_userName')]"
+					"AzureSqlDatabase1_properties_typeProperties_database": {
+						"value": "[parameters('AzureSqlDatabase1_properties_typeProperties_database')]"
+					},
+					"AzureSqlDatabase1_properties_typeProperties_userName": {
+						"value": "[parameters('AzureSqlDatabase1_properties_typeProperties_userName')]"
 					}
 				}
 			},
