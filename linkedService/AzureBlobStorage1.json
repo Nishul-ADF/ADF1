@@ -6,7 +6,7 @@
 		"type": "AzureBlobStorage",
 		"typeProperties": {
 			"connectionString": "DefaultEndpointsProtocol=https;AccountName=nishulstorage;EndpointSuffix=core.windows.net;",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEQ2RDJGRkYwLTE0MzMtNDMyMS04RjM2LTNFNTQyQzczOTQyNV9kYjAzN2M4OS00ZjBjLTRhYWQtOThkZS1kNzNiMDAwNmI0ZTEiDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDI5MTUwMUE4LUIzMjctNDdENS05RkY2LTlCNEUyRTY1NUVGM185YjI1MDkzMS00MWUyLTRlNjMtYWNkYy04ZDBjMzhiNDE1ZGIiDQp9"
 		}
 	}
 }
